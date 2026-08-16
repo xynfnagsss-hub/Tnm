@@ -1,0 +1,21 @@
+{
+  "name": "tnm-bot",
+  "version": "1.0.0",
+  "description": "TNM (Trust No Mob) - Professional Discord bot with tickets, moderation, leveling, Roblox verification, and full logging.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "axios": "^1.7.7"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "license": "UNLICENSED",
+  "private": true
+}
